@@ -93,6 +93,7 @@ If you're assigned the *Authentication Administrator* role, you can require user
    
       > [!NOTE]
       > The user's currently registered authentication methods aren't deleted when an admin requires re-registration for MFA. After a user re-registers for MFA, we recommend they review their security info and delete any previously registered authentication methods that are no longer usable.
+      > In case the user has an activated OATH Hardware token, triggering the re-registration of the MFA authentication methods will require a re-activation of the OATH Hardware token by a Global Admin.
    
    - **Revoke MFA Sessions** clears the user's remembered MFA sessions and requires them to perform MFA the next time it's required by the policy on the device.
    
