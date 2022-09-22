@@ -374,7 +374,7 @@ Content-Type: application/json
 }
 ```
 
-Set the **Staged Rollout for Azure MFA** to **Off**. Users will once again be redirected to your on-premises federation server for MFA. 
+Users will no longer be redirected to your on-premises federation server for MFA, whether they’re targeted by the Staged Rollout tool or not. Note this can take up to 24 hours to take effect. 
 
 >[!NOTE]
 >The update of the domain federation setting can take up to 24 hours to take effect. 
@@ -450,7 +450,7 @@ If the upgrade had issues, follow these steps to roll back:
    }
    ```
 
-Users will no longer be redirected to your on-premises federation server for MFA, whether they’re targeted by the Staged Rollout tool or not. Note this can take up to 24 hours to take effect.
+Set the Staged Rollout for Azure MFA to Off. Users will once again be redirected to your on-premises federation server for MFA.
 
 
 ## Next steps
