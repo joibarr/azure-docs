@@ -124,13 +124,13 @@ Microsoft finds leaked credentials in various places, including:
 
 #### Why am I not seeing any leaked credentials?
 
-Leaked credentials are processed anytime Microsoft finds a new, publicly available batch. Because of the sensitive nature, the leaked credentials are deleted shortly after processing. Only new leaked credentials found after you enable password hash synchronization (PHS) will be processed against your tenant. Verifying against previously found credential pairs isn't done. 
+Leaked credentials are processed anytime Microsoft finds a new, publicly available batch. Because of the sensitive nature, the leaked credentials are deleted shortly after processing. For synchronized users only new leaked credentials found after you enable password hash synchronization (PHS) will be processed against your tenant. Verifying against previously found credential pairs isn't done. 
 
 #### I haven't seen any leaked credential risk events for quite some time?
 
 If you haven't seen any leaked credential risk events, it is because of the following reasons:
 
-- You don't have PHS enabled for your tenant.
+- For synchronized users, you don't have PHS enabled for your tenant.
 - Microsoft has not found any leaked credential pairs that match your users.
 
 #### How often does Microsoft process new credentials?
